@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{B6A0FDFD-44BE-C503-2971-C342B91E63E8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Background.cs" Line="15" Column="10" />
+      <File FileName="Assets/Scripts/Player.cs" Line="49" Column="27" />
+      <File FileName="Assets/Scripts/Weapon.cs" Line="9" Column="34" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="43" Column="64" />
+      <File FileName="Assets/Scripts/Heart.cs" Line="12" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GeorgeGimbab" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a195084a-6b4f-4026-af68-a844aa5c6dc2" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
