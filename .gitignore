@@ -71,3 +71,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+# Ignore large media files that should be tracked by Git LFS
+!*.png
+!*.jpg
+!*.wav
+!*.mp3
+!*.mp4
+!*.fbx
+!*.obj
+!*.psd
+!*.anim
+!*.prefab
