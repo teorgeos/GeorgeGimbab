@@ -360,6 +360,7 @@
 "Assets/Scripts/Background.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemySpawner.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Heart.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Weapon.cs"

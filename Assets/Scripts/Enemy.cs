@@ -32,12 +32,13 @@ public class Enemy : MonoBehaviour
             hp -= weapon.damage;
             if (hp <= 0)
             {
+                GameManager.instance.EnemyKilled();
                 Destroy(gameObject);
                 Instantiate(heart, transform.position, Quaternion.identity);
             }
             Destroy(other.gameObject);
 
-          
         }
+
     }
 }

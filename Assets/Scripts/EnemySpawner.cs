@@ -27,11 +27,20 @@ public class EnemySpawner : MonoBehaviour
 
         while (true)
         {
-            // 랜덤한 X 위치 선택
-            float posX = arrPosX[Random.Range(0, arrPosX.Length)];
+            // 게임 오버 상태가 아니면 적을 생성
+            if (GameManager.instance.enemyKillCount < GameManager.instance.maxKills)
+            {
+                // 랜덤한 X 위치 선택
+                float posX = arrPosX[Random.Range(0, arrPosX.Length)];
 
-            // 적 생성
-            SpawnEnemy(posX);
+                // 적 생성
+                SpawnEnemy(posX);
+            }
+            else
+            {
+                // 게임 오버 상태이면 적 생성 중단
+                yield break;
+            }
 
             // 다음 스폰까지 대기
             yield return new WaitForSeconds(spawnInterval);
